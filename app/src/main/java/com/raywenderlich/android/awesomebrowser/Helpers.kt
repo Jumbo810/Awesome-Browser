@@ -1,7 +1,7 @@
 package com.raywenderlich.android.awesomebrowser
 
 import android.content.Context
-import androidx.appcompat.app.AlertDialog
+import android.support.v7.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.text.Spanned
 import android.view.View
