@@ -33,9 +33,9 @@ package com.raywenderlich.android.awesomebrowser
 
 import android.net.Uri
 import android.os.Bundle
-import android.support.v4.text.HtmlCompat
-import android.support.v7.app.ActionBar
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.text.HtmlCompat
+import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
 import android.text.Html
 import android.text.Spanned
 import android.view.KeyEvent
@@ -60,13 +60,13 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
 
-    // setupToolbar()
+    setupToolbar()
 
-    // setupUrlEditText()
+    setupUrlEditText()
 
     setupGeckoView()
 
-    // progressView = findViewById(R.id.page_progress)
+    progressView = findViewById(R.id.page_progress)
   }
 
   private fun setupGeckoView() {
