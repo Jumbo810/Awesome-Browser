@@ -33,7 +33,7 @@ package com.raywenderlich.android.awesomebrowser
 
 import android.net.Uri
 import android.os.Bundle
-import androidx.appcompat.text.HtmlCompat
+import android.support.v7.text.HtmlCompat
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import android.text.Html
