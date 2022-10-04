@@ -38,6 +38,7 @@ jobs:
       - run:
           name: Assemble Release Build
           command: |
+            chmod +x gradlew
             ./gradlew assembleRelease
 
       - run:
