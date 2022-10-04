@@ -60,13 +60,13 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
 
-    setupToolbar()
+    // setupToolbar()
 
-    setupUrlEditText()
+    // setupUrlEditText()
 
     setupGeckoView()
 
-    progressView = findViewById(R.id.page_progress)
+    // progressView = findViewById(R.id.page_progress)
   }
 
   private fun setupGeckoView() {
